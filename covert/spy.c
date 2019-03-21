@@ -1,7 +1,7 @@
 #include "utils.h"
 
 #define MAX_STATE_TIME 250000
-#define COVERT_LOG_FILE "cycles_times.log"
+#define COVERT_LOG_FILE "../results/cycles_times.log"
 
 static unsigned long long start_t = 0, end_t = 0;
 static pthread_mutex_t spyMutex = PTHREAD_MUTEX_INITIALIZER;
